@@ -1,0 +1,78 @@
+/* Regi.css */
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkblue; /* Light background color */
+    margin: 40px 550px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div {
+    margin-bottom: 10px; /* Decreased gap between input fields */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0; /* Removed margin for inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    background-color: #4CAF50; /* Green background for submit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+input[type="submit"]:active {
+    background-color: #3e8e41; /* Even darker green on click */
+}

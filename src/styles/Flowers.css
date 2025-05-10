@@ -1,0 +1,98 @@
+/* Overall container */
+/* ... (other CSS) */
+
+.parent {
+  /* ... (other styles) */
+  max-width: 900px; /* Reduced max-width */
+}
+
+.body {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Slightly smaller minmax */
+  gap: 15px; /* Adjust gap if needed */
+}
+
+.image-container {
+  padding: 8px; /* Slightly smaller padding */
+}
+
+.image-container img {
+  max-width: 160px; /* Slightly smaller image */
+}
+
+/* ... (rest of your CSS) */
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin:20px 500px;
+  }
+  
+  /* Body Section */
+  .body {
+    display: grid; /* Use grid for a neat layout */
+    grid-template-columns: repeat(3, 200px); /* 3 images per row, with fixed width */
+    gap: 20px; /* Space between the images */
+    justify-content: center; /* Center the grid */
+    margin-top: 20px;
+    width: 100%; /* Ensure body takes up full width */
+  }
+  
+  /* Styling for individual image containers */
+  .image-container {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 250px; /* Fixed height for image containers */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out the image and icons */
+    align-items: center;
+  }
+  
+  .image-container img {
+    width: 180px; /* Fixed width for images */
+    height: 180px; /* Fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the quantity control section */
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .quantity-control i {
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .quantity-control i:hover {
+    color: #4CAF50;
+  }
+  
+  .quantity-control span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Footer section */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  

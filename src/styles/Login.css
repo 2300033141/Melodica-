@@ -1,0 +1,80 @@
+/* Login.css */
+
+/* Make sure the page takes full height and has background */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* This is the key section: center the card */
+.login-card {
+  display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center;      /* Vertical center */
+  height: 100vh; 
+  width: 1500px;           /* Full viewport height */
+}
+
+/* Style the form like a card */
+.login-card form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.login-card h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  border-color: #7b57d2;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(123, 87, 210, 0.2);
+}
+
+/* Login button */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #7b57d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-card button:hover {
+  background-color: #5f42b5;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+}

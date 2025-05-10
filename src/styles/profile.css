@@ -1,0 +1,116 @@
+/* Overall container */
+.profile-container {
+    display: flex;
+    justify-content: flex-start; /* Ensure content starts from the left */
+    padding: 20px;
+    background-color: black;
+  }
+  
+  .sidebar {
+    width: 250px; /* Fixed width for sidebar */
+    background-color: #2e3b4e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100vh; /* Ensure the sidebar takes full height of the viewport */
+    position: sticky; /* Keeps the sidebar fixed when scrolling */
+    top: 0; /* Ensures the sidebar sticks to the top */
+  }
+  .sri{
+    height:50%;
+    width:auto;
+    color: aliceblue;
+    text-align: center;
+  }
+  .sidebar-item {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-item h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .sidebar-item a:hover {
+    color: #4CAF50; /* Green hover effect */
+  }
+  
+  /* Profile Content (Albums) */
+  .profile-left {
+    flex-grow: 1; /* Take up the remaining space */
+    padding-left: 20px;
+  }
+  
+  .albums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  
+    
+  }
+  
+  .album {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .album img {
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  /* Profile Content (Right) */
+  .profile-right {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Albums Layout */
+  .albums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .album {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .album img {
+    width: 100%;
+    height:80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .profile-left, .profile-right {
+      width: 100%; /* Profile sections take full width */
+    }
+  }
+  

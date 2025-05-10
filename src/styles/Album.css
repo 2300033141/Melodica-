@@ -1,0 +1,82 @@
+/* AlbumPage.css */
+.album-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .album-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #1ed760;
+  }
+  
+  .album-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .album-cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .album-title {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .song-list {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  .song-list h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  .song-item:hover {
+    background-color: #333;
+  }
+  
+  audio {
+    margin-left: 10px;
+    width: 150px;
+  }
+  

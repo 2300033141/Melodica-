@@ -1,0 +1,21 @@
+.settings-container {
+    padding: 20px;
+  }
+  
+  .settings-option {
+    margin: 10px 0;
+  }
+  
+  input {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

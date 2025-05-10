@@ -1,0 +1,27 @@
+/* Footer.css */
+.footer {
+  background-color: #333; /* Example dark background */
+  color: #fff; /* White text color */
+  text-align: center; /* Center the content */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 6px 0; /* Decreased padding for a smaller footer */
+  height: auto; /* Allow the height to adjust based on content */
+}
+
+.footer-content {
+  max-width: 1200px;  /* Optional max width */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.footer h1 {
+  margin-bottom: 3px; /* Adjust space below the heading */
+  font-size: 1.2rem; /* Slightly smaller heading */
+}
+
+.footer p {
+  font-size: 0.8rem; /* Smaller font size for copyright text */
+  margin: 0; /* Remove extra margin around text */
+}

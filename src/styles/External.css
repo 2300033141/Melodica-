@@ -1,0 +1,81 @@
+
+.klu-id-card {
+    width: 280px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 20px auto;
+  }
+  
+  .klu-header {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .klu-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .klu-department {
+    color: #003366;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .klu-body {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .klu-student-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #003366;
+    margin-bottom: 10px;
+  }
+  
+  .klu-section {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .klu-batch {
+    color: #003366;
+    font-size: 12px;
+  }
+  
+  .klu-footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .klu-details {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .klu-roll-number {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .klu-name {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  

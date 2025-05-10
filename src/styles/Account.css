@@ -1,0 +1,44 @@
+/* Account.css */
+.account-container {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50px 500px;
+  }
+  
+  .account-card {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* For absolute positioning of the links */
+  }
+  
+  .account-links {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    display: flex;
+    gap: 30px; /* Space between the links */
+  }
+  
+  .account-links a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set the color for links */
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .account-links a:hover {
+    color: #4CAF50; /* Change color on hover */
+    text-decoration: underline;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  

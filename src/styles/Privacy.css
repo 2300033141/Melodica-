@@ -1,0 +1,16 @@
+.privacy-container {
+    padding: 20px;
+  }
+  
+  .privacy-option {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

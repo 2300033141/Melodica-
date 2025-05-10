@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  gap: 20px;
+  position: fixed; /* Stay on top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Stay above other content */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

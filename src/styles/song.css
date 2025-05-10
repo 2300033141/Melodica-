@@ -1,0 +1,48 @@
+/* styles.css */
+/* ... (previous styles) */
+
+.song-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure full viewport height */
+  }
+  
+  .song-list {
+    padding: 20px;
+    flex: 1; /* Allow song list to take up available space */
+    overflow-y: auto; /* Add scroll if needed */
+  }
+  
+  .song-item {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .song-image-container {
+    width: 50px; /* Adjust image size */
+    height: 50px;
+    margin-right: 10px;
+    overflow: hidden; /* Clip image if necessary */
+  }
+  
+  .song-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+  }
+  
+  .song-details {
+    flex: 1; /* Allow details to take up remaining space */
+  }
+  
+  /* Style the back button as needed */
+  .song-page-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50; /* Example button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

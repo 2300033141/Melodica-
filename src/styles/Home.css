@@ -1,0 +1,80 @@
+.profile-left {
+    flex-grow: 1; /* Take up the remaining space */
+    padding-left: 20px;
+   
+  }
+  .home{
+    background-color:Navy Blue (#001F3F);
+   
+     text-align: center;
+  margin-left: auto; /* This might not be doing what you expect for centering the whole div */
+  padding: 0;
+  height: 100vh; 
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+margin-top: 50PX;
+  color: Black;
+  }
+  .albums {
+      background-size: cover; 
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .album {
+    width: 200px;
+    text-align: center;
+    
+  }
+  
+  .album im {
+    width: 30%;
+    border-radius: 50%;
+    margin:0px;
+  }
+  
+  .profile-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  /* Profile Content (Right) */
+  .profile-right {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Albums Layout */
+  .albums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .album {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .album img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .profile-left, .profile-right {
+      width: 100%; /* Profile sections take full width */
+    }
+  }
+  
